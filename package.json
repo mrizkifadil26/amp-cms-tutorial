@@ -15,6 +15,7 @@
     "coverage": "nyc --reporter=lcov --reporter=text-summary mocha -r ts-node/register src/**/*.spec.ts"
   },
   "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/chai": "^4.2.14",
     "@types/formidable": "^1.0.32",
     "@types/mocha": "^8.2.0",
@@ -22,6 +23,7 @@
     "@types/supertest": "^2.0.10",
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
     "supertest": "^6.0.1",
     "ts-node-dev": "^1.1.1"
   }
